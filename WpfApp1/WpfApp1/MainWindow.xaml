@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="250">
+    <StackPanel>
+        <Label Name="lblStauts" Margin="10,5,10,0">not do anything </Label>
+        <Button Name="btnProcess"  Content="process" HorizontalAlignment="Left" Margin="10,5" Padding="5,2" Click="btn_ProcessClick"></Button>
+        <Button Name="btnCancel"  Content="cancel" HorizontalAlignment="Left" Margin="10,5" Padding="5,2" Click="btn_CancelClick"></Button>
+        <ProgressBar x:Name="ProcesBar" Height="20" Width="200" Margin="10" HorizontalAlignment="Right"></ProgressBar>
+    </StackPanel>
+</Window>
